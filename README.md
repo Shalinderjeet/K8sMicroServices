@@ -20,3 +20,7 @@ kubectl get nodes
 kubectl create namespace microservices
 kubectl apply -f config.yaml -n microservices
 
+kubectl get pod -n microservices
+kubectl get service -n microservice
+
+Access the application from any IPnode:30007
